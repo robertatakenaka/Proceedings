@@ -1,0 +1,7 @@
+open scielo3.bireme.br
+proceedings
+27pro250
+
+cd www
+prompt
+bin

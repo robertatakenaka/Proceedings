@@ -1,0 +1,39 @@
+<!-- 
+PATH_DATABASE: tag 7011
+PATH_CGI-BIN:  tag 7013
+PATH_DATA:     tag 7014
+-->
+<field action="replace" tag="8034"><pft>getenv('PATH_TRANSLATED')</pft></field>
+<field action="replace" tag="8034">
+    <pft>
+        if right(v8034,1) <> '/' and right(v8034,1) <> '\' then,
+            if v8034 : '/' then,
+                v8034,'/',
+            else,
+                v8034,'\',
+            fi,
+        fi
+    </pft>
+</field>
+
+<call name="getDefine"><pft>v8034,v3011</pft></call>	
+<!--call name="getDefine"><pft>'C:\httpd\htdocs\ScieloXML\scielo.def'</pft></call-->
+
+<parm name="cipar">
+	<pft>
+		'TITLE.*=',     v7011, 'title/title.*',/
+		'SERAREA.*=',   v7011, 'title/serarea.*',/
+		'NEWISSUE.*=',  v7011, 'newissue/newissue.*',/
+		'ARTIGO.*=',    v7011, 'artigo/artigo.*',/
+		'FACCOUNT.*=',  v7011, 'issue/faccount.*',/
+		'NLINKS.*=',    v7011, 'medline/nlinks.*',/
+		'LATTES.*=',    v7011, 'lattes/lattes.*',/
+        'XPLODED.*=',   v7011, 'bib/xploded.*',/
+        'ANSIUC.TAB=', v7012, v7015, 'ansiuc.tab',/
+        'ANSIUC2.TAB=', v7012, v7015, 'ansiuc2.tab',/
+        'MAANS.TAB=',  v7011, 'tab/maans.tab',/
+        'ACANS.TAB=',  v7011, 'tab/acans.tab',/
+
+	</pft>
+</parm>
+

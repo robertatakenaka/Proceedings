@@ -1,0 +1,207 @@
+[VERSAO 2.0]
+   20070629 1501
+[EnviaBasesScielo.bat] 
+    Inicio       
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\serial\scilista.lst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\serial\scilista.lst   
+ 
+[batch\CopiaArquivo.bat] 
+    Copia arquivo: \scieloproceedings\serial\scilista.lst em: temp\scilista-envia.lst   
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2linux     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2linux\title     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2linux\issue     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2linux\code     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2linux\cfb     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2linux\cfb\n1     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\title\title  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\title\title.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\title\title.xrf   
+ 
+[batch\DeletaArquivo.bat] 
+    Deleta arquivo: temp\title.mst     
+ 
+[batch\DeletaArquivo.bat] 
+    Deleta arquivo: temp\title.xrf     
+ 
+[batch\GeraMaster.bat] 
+    Gera master: temp\title     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: temp\title  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: temp\title.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: temp\title.xrf   
+ 
+[batch\ConverteMaster.bat] 
+    Converte base de dados: temp\title em: temp\transf2linux\title\title 
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\newissue\newissue  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\newissue\newissue.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\newissue\newissue.xrf   
+ 
+[batch\ConverteMaster.bat] 
+    Converte base de dados: ..\bases\newissue\newissue em: temp\transf2linux\issue\issue 
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: \scieloproceedings\serial\code\newcode  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\serial\code\newcode.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\serial\code\newcode.xrf   
+ 
+[batch\ConverteMaster.bat] 
+    Converte base de dados: \scieloproceedings\serial\code\newcode em: temp\transf2linux\code\newcode 
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: \scieloproceedings\serial\cfb\n1\base\n1  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\serial\cfb\n1\base\n1.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\serial\cfb\n1\base\n1.xrf   
+ 
+[batch\ConverteMaster.bat] 
+    Converte base de dados: \scieloproceedings\serial\cfb\n1\base\n1 em: temp\transf2linux\cfb\n1\n1 
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: transf\EnviaBasesLogOn.txt   
+ 
+[batch\CopiaArquivo.bat] 
+    Copia arquivo: transf\EnviaBasesLogOn.txt em: temp\EnviaBases.txt   
+ 
+[EnviaBasesScielo.bat] 
+    FTP das bases     
+ 
+ftp> Connected to scielohm1.bireme.br.
+open scielohm1.bireme.br
+220 FTP Server ready.
+User (scielohm1.bireme.br:(none)): 
+331 Password required for proceedings.
+
+230 User proceedings logged in.
+ftp> ftp> 
+ftp> 
+Interactive mode Off .
+ftp> prompt
+cd www
+250 CWD command successful
+ftp> mkdir serial
+550 serial: File exists
+ftp> cd serial
+250 CWD command successful
+ftp> ascii
+200 Type set to A
+ftp> put temp\scilista-envia.lst scilista.lst
+200 PORT command successful
+150 Opening ASCII mode data connection for scilista.lst
+226 Transfer complete.
+ftp: 6 bytes sent in 0.00Seconds 6000.00Kbytes/sec.
+ftp> bin
+200 Type set to I
+ftp> Local directory now C:\SciELOProceedings\web\proc\temp\transf2linux.
+ftp> lcd temp\transf2linux
+mkdir title
+550 title: File exists
+ftp> cd title
+250 CWD command successful
+ftp> mput title/title.*
+200 PORT command successful
+150 Opening BINARY mode data connection for title.mst
+226 Transfer complete.
+ftp: 7680 bytes sent in 0.00Seconds 7680000.00Kbytes/sec.
+200 PORT command successful
+150 Opening BINARY mode data connection for title.xrf
+226 Transfer complete.
+ftp: 512 bytes sent in 0.00Seconds 512000.00Kbytes/sec.
+ftp> cd ..
+250 CWD command successful
+ftp> mkdir issue
+550 issue: File exists
+ftp> cd issue
+250 CWD command successful
+ftp> mput issue/issue.*
+200 PORT command successful
+150 Opening BINARY mode data connection for issue.mst
+226 Transfer complete.
+ftp: 17920 bytes sent in 0.00Seconds 17920000.00Kbytes/sec.
+200 PORT command successful
+150 Opening BINARY mode data connection for issue.xrf
+226 Transfer complete.
+ftp: 512 bytes sent in 0.00Seconds 512000.00Kbytes/sec.
+ftp> cd ..
+250 CWD command successful
+ftp> mkdir code
+550 code: File exists
+ftp> cd code
+250 CWD command successful
+ftp> mput code/newcode.*
+200 PORT command successful
+150 Opening BINARY mode data connection for newcode.mst
+226 Transfer complete.
+ftp: 40448 bytes sent in 0.00Seconds 40448000.00Kbytes/sec.
+200 PORT command successful
+150 Opening BINARY mode data connection for newcode.xrf
+226 Transfer complete.
+ftp: 512 bytes sent in 0.00Seconds 512000.00Kbytes/sec.
+ftp> cd ..
+250 CWD command successful
+ftp> ftp> 
+mkdir cfb
+550 cfb: File exists
+ftp> mkdir cfb/n1
+550 cfb/n1: File exists
+ftp> mkdir cfb/n1/base
+550 cfb/n1/base: File exists
+ftp> cd cfb/n1/base
+250 CWD command successful
+ftp> mput cfb/n1/n1.*
+200 PORT command successful
+150 Opening BINARY mode data connection for n1.mst
+226 Transfer complete.
+ftp: 441856 bytes sent in 0.03Seconds 14253.42Kbytes/sec.
+200 PORT command successful
+150 Opening BINARY mode data connection for n1.xrf
+226 Transfer complete.
+ftp: 3584 bytes sent in 0.00Seconds 3584000.00Kbytes/sec.
+ftp> cd ../../../
+250 CWD command successful
+ftp> bye 
+221 Goodbye.
+[VERSAO 2.0]
+   20070629 1501
+[EnviaBasesScielo.bat] 
+    Fim LOG gravado em: log\EnviaBasesScieloPadrao.log   
+ 

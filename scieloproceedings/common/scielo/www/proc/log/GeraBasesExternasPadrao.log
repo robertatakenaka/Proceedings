@@ -1,0 +1,150 @@
+[VERSAO 2.0]
+   20020809 1216
+[GeraBasesExternas.bat] 
+    Inicio       
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\lattes\lattes.seq   
+ 
+[batch\Seq2Master.bat] 
+    Gera Master: ../bases\lattes\lattes     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ../bases\lattes\lattes  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\lattes\lattes.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\lattes\lattes.xrf   
+ 
+[batch\GeraInvertido.bat] 
+    Gera invertido: ../bases\lattes\lattes     
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\medline\nlinks.iso   
+ 
+[VERSAO 2.0]
+   20020809 1216
+[batch\VerifExisteArquivo.bat] 
+    ERRO : Arquivo nao encontrado: ../bases\medline\nlinks.iso  
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: gizmo\rangemdl  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: gizmo\rangemdl.mst   
+ 
+[VERSAO 2.0]
+   20020809 1216
+[batch\VerifExisteArquivo.bat] 
+    ERRO : Arquivo nao encontrado: gizmo\rangemdl.mst  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: gizmo\rangemdl.xrf   
+ 
+[VERSAO 2.0]
+   20020809 1216
+[batch\VerifExisteArquivo.bat] 
+    ERRO : Arquivo nao encontrado: gizmo\rangemdl.xrf  
+ 
+[batch\Iso2Master.bat] 
+    Gera master: ../bases\medline\nlinks     
+ 
+[VERSAO 2.0]
+   20020809 1216
+[batch\Iso2Master.bat] 
+    ERRO : mx iso:../bases\medline\nlinks.iso create:../bases\medline\nlinks   
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ../bases\medline\nlinks  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\medline\nlinks.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\medline\nlinks.xrf   
+ 
+[batch\GeraInvertido.bat] 
+    Gera invertido: ../bases\medline\nlinks     
+ 
+[VERSAO 2.0]
+   20020809 1216
+[GeraBasesExternas.bat] 
+    Fim       
+ 
+[VERSAO 2.0]
+   20020809 1217
+[GeraBasesExternas.bat] 
+    Inicio       
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\lattes\lattes.seq   
+ 
+[batch\Seq2Master.bat] 
+    Gera Master: ../bases\lattes\lattes     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ../bases\lattes\lattes  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\lattes\lattes.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\lattes\lattes.xrf   
+ 
+[batch\GeraInvertido.bat] 
+    Gera invertido: ../bases\lattes\lattes     
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\medline\nlinks.iso   
+ 
+[VERSAO 2.0]
+   20020809 1217
+[batch\VerifExisteArquivo.bat] 
+    ERRO : Arquivo nao encontrado: ../bases\medline\nlinks.iso  
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: gizmo\rangemdl  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: gizmo\rangemdl.mst   
+ 
+[VERSAO 2.0]
+   20020809 1217
+[batch\VerifExisteArquivo.bat] 
+    ERRO : Arquivo nao encontrado: gizmo\rangemdl.mst  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: gizmo\rangemdl.xrf   
+ 
+[VERSAO 2.0]
+   20020809 1217
+[batch\VerifExisteArquivo.bat] 
+    ERRO : Arquivo nao encontrado: gizmo\rangemdl.xrf  
+ 
+[batch\Iso2Master.bat] 
+    Gera master: ../bases\medline\nlinks     
+ 
+[VERSAO 2.0]
+   20020809 1217
+[batch\Iso2Master.bat] 
+    ERRO : mx iso:../bases\medline\nlinks.iso create:../bases\medline\nlinks   
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ../bases\medline\nlinks  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\medline\nlinks.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ../bases\medline\nlinks.xrf   
+ 
+[batch\GeraInvertido.bat] 
+    Gera invertido: ../bases\medline\nlinks     
+ 
+[VERSAO 2.0]
+   20020809 1217
+[GeraBasesExternas.bat] 
+    Fim       
+ 

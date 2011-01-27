@@ -1,0 +1,11 @@
+open www.scielo.br
+proceedings
+27pro250
+
+prompt
+cd /home/proceedings/www
+mkdir serial
+cd serial
+ascii
+put temp\scilista-envia.lst scilista.lst
+bin

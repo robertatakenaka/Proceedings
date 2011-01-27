@@ -1,0 +1,255 @@
+[VERSAO 2.0]
+   20020815 1254
+[Envia2Medline] 
+    Inicio       
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2medline     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: \scieloproceedings\web\\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\web\\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\web\\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: TP    
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: \scieloproceedings\web\\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\web\\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\web\\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: c    
+ 
+[VERSAO 2.0]
+   20020815 1254
+[batch\GeraIsoBool.bat] 
+    ERRO : mx \scieloproceedings\web\\bases\artigo\artigo bool:TP iso:c  
+ 
+[VERSAO 2.0]
+   20020815 1255
+[Envia2Medline] 
+    Fim LOG gravado em: log\Envia2Medline.log   
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: \scieloproceedings\web\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\web\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\web\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: TP    
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: \scieloproceedings\web\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\web\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\web\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: @prc\addIssue.prc    
+ 
+[VERSAO 2.0]
+   20020815 1258
+[batch\GeraIsoBool.bat] 
+    ERRO : mx \scieloproceedings\web\bases\artigo\artigo bool:proc iso:@prc\addIssue.prc  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: transf/Envia2MedlinePadrao.txt   
+ 
+[batch\DeletaArquivo.bat] 
+    Deleta arquivo: log/envia2medline.log     
+ 
+[VERSAO 2.0]
+   20020816 0947
+[Envia2Medline.bat] 
+    Inicio       
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2medline     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: h    
+ 
+[VERSAO 2.0]
+   20020816 0947
+[batch\GeraIsoBool.bat] 
+    ERRO : mx ..\bases\artigo\artigo bool:TP iso:h  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: transf/Envia2MedlinePadrao.txt   
+ 
+[batch\DeletaArquivo.bat] 
+    Deleta arquivo: log/envia2medline.log     
+ 
+[VERSAO 2.0]
+   20020816 0947
+[Envia2Medline.bat] 
+    Inicio       
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2medline     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: h    
+ 
+[VERSAO 2.0]
+   20020816 0947
+[batch\GeraIsoBool.bat] 
+    ERRO : mx ..\bases\artigo\artigo bool:TP iso:h  
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: c    
+ 
+[VERSAO 2.0]
+   20020816 0948
+[batch\GeraIsoBool.bat] 
+    ERRO : mx ..\bases\artigo\artigo bool:TP iso:c  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: transf/Envia2MedlinePadrao.txt   
+ 
+[batch\DeletaArquivo.bat] 
+    Deleta arquivo: log/envia2medline.log     
+ 
+[VERSAO 2.0]
+   20020816 0950
+[Envia2Medline.bat] 
+    Inicio       
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2medline     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: h    
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: c    
+ 
+[VERSAO 2.0]
+   20020816 0950
+[batch\GeraIsoBool.bat] 
+    ERRO : mx ..\bases\artigo\artigo bool:TP iso:c  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: transf/Envia2MedlinePadrao.txt   
+ 
+[batch\DeletaArquivo.bat] 
+    Deleta arquivo: log/envia2medline.log     
+ 
+[VERSAO 2.0]
+   20020816 0951
+[Envia2Medline.bat] 
+    Inicio       
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2medline     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: temp\transf2medline\artigo.iso    
+ 
+[VERSAO 2.0]
+   20020816 0951
+[Envia2Medline.bat] 
+    Fim LOG gravado em: log/envia2medline.log   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: transf/Envia2MedlinePadrao.txt   
+ 
+[batch\DeletaArquivo.bat] 
+    Deleta arquivo: log/envia2medline.log     
+ 
+[VERSAO 2.0]
+   20020816 0952
+[Envia2Medline.bat] 
+    Inicio       
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2medline     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: temp\transf2medline\artigo.iso    
+ 
+[VERSAO 2.0]
+   20020816 0952
+[Envia2Medline.bat] 
+    Fim LOG gravado em: log/envia2medline.log   
+ 

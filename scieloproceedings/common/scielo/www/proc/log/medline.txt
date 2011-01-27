@@ -1,0 +1,45 @@
+[VERSAO 2.0]
+   20020813 1752
+[Envia2Medline.bat] 
+    Inicio       
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: temp\transf2medline     
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: h    
+ 
+[VERSAO 2.0]
+   20020813 1752
+[batch\GeraIsoBool.bat] 
+    ERRO : mx ..\bases\artigo\artigo bool:TP iso:h  
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteBase.bat] 
+    Verifica se existe a base: ..\bases\artigo\artigo  
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.mst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: ..\bases\artigo\artigo.xrf   
+ 
+[batch\GeraIsoBool.bat] 
+    Gera arquivo iso: h    
+ 
+[VERSAO 2.0]
+   20020813 1804
+[batch\GeraIsoBool.bat] 
+    ERRO : mx ..\bases\artigo\artigo bool:TP iso:h  
+ 

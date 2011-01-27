@@ -1,0 +1,921 @@
+[VERSAO 2.0]
+   20070308 1530
+[EnviaImgPdfScielo.bat] 
+    Inicio       
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\serial\scilista.lst   
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: \scieloproceedings\serial\scilista.lst   
+ 
+[batch\CopiaArquivo.bat] 
+    Copia arquivo: \scieloproceedings\serial\scilista.lst em: temp\scilista-imgpdf.lst   
+ 
+[batch\ImgPdfCriaDir.bat] 
+    Cria diretorios para funcionar FTP   
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\img\eventos\sia     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\img\eventos\sia\n1     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\img\eventos\sia\n1\html     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\pdf\sia     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\pdf\sia\n1     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\img\eventos\sia     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\img\eventos\sia\n2     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\img\eventos\sia\n2\html     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\pdf\sia     
+ 
+[batch\CriaDiretorio.bat] 
+    Cria diretorio: \scieloproceedings\web\htdocs\pdf\sia\n2     
+ 
+[batch\VerifExisteArquivo.bat] 
+    Verifica se existe arquivo: transf\EnviaImgPdfLogOn.txt   
+ 
+[batch\CopiaArquivo.bat] 
+    Copia arquivo: transf\EnviaImgPdfLogOn.txt em: temp\EnviaImgPdf.txt   
+ 
+[EnviaImgPdfScielo.bat] 
+    FTP das Imagens e Pdfs   
+ 
+ftp> Connected to scielo3.bireme.br.
+open scielo3.bireme.br
+220 scielo3.bireme.br FTP server (Version wu-2.6.2-11.71.1) ready.
+User (scielo3.bireme.br:(none)): 
+331 Password required for proceedings.
+
+230 User proceedings logged in.
+ftp> ftp> 
+ftp> 
+cd www
+250 CWD command successful.
+ftp> Interactive mode Off .
+ftp> prompt
+bin
+200 Type set to I.
+ftp> Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd \scieloproceedings\web\htdocs
+ftp> 
+pwd
+257 "/home/proceedings/www" is current directory.
+ftp> cd htdocs/img/eventos
+250 CWD command successful.
+ftp> mkdir sia
+521 "/home/proceedings/www/htdocs/img/eventos/sia" directory exists
+ftp> mkdir sia/n1
+521 "/home/proceedings/www/htdocs/img/eventos/sia/n1" directory exists
+ftp> pwd
+257 "/home/proceedings/www/htdocs/img/eventos" is current directory.
+ftp> cd sia/n1
+250 CWD command successful.
+ftp> Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n1.
+ftp> lcd img/eventos/sia/n1
+bin
+200 Type set to I.
+ftp> mput *.g??
+200 PORT command successful.
+150 Opening BINARY mode data connection for a02img01.gif.
+226 Transfer complete.
+ftp: 8412 bytes sent in 0.00Seconds 8412000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a02img02.gif.
+226 Transfer complete.
+ftp: 9052 bytes sent in 0.00Seconds 9052000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a02img03.gif.
+226 Transfer complete.
+ftp: 11743 bytes sent in 0.01Seconds 782.87Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a02img04.gif.
+226 Transfer complete.
+ftp: 14210 bytes sent in 0.02Seconds 888.13Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a20img01.gif.
+226 Transfer complete.
+ftp: 9597 bytes sent in 0.02Seconds 599.81Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a20img02.gif.
+226 Transfer complete.
+ftp: 6395 bytes sent in 0.02Seconds 399.69Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img01.gif.
+226 Transfer complete.
+ftp: 70114 bytes sent in 0.02Seconds 4382.13Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img02.gif.
+226 Transfer complete.
+ftp: 73478 bytes sent in 0.05Seconds 1563.36Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img03.gif.
+226 Transfer complete.
+ftp: 139792 bytes sent in 0.03Seconds 4509.42Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img04.gif.
+226 Transfer complete.
+ftp: 61265 bytes sent in 0.01Seconds 4084.33Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img05.gif.
+226 Transfer complete.
+ftp: 101906 bytes sent in 0.01Seconds 6793.73Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img06.gif.
+226 Transfer complete.
+ftp: 62112 bytes sent in 0.01Seconds 4140.80Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img07.gif.
+226 Transfer complete.
+ftp: 82973 bytes sent in 0.02Seconds 5185.81Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img08.gif.
+226 Transfer complete.
+ftp: 73523 bytes sent in 0.03Seconds 2297.59Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img09.gif.
+226 Transfer complete.
+ftp: 65197 bytes sent in 0.01Seconds 4346.47Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img10.gif.
+226 Transfer complete.
+ftp: 44143 bytes sent in 0.02Seconds 2758.94Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for seta.gif.
+226 Transfer complete.
+ftp: 86 bytes sent in 0.00Seconds 86000.00Kbytes/sec.
+ftp> mput *.G??
+200 PORT command successful.
+150 Opening BINARY mode data connection for a02img01.gif.
+226 Transfer complete.
+ftp: 8412 bytes sent in 0.00Seconds 8412000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a02img02.gif.
+226 Transfer complete.
+ftp: 9052 bytes sent in 0.00Seconds 9052000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a02img03.gif.
+226 Transfer complete.
+ftp: 11743 bytes sent in 0.00Seconds 11743000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a02img04.gif.
+226 Transfer complete.
+ftp: 14210 bytes sent in 0.00Seconds 14210000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a20img01.gif.
+226 Transfer complete.
+ftp: 9597 bytes sent in 0.00Seconds 9597000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a20img02.gif.
+226 Transfer complete.
+ftp: 6395 bytes sent in 0.00Seconds 6395000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img01.gif.
+226 Transfer complete.
+ftp: 70114 bytes sent in 0.00Seconds 70114000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img02.gif.
+226 Transfer complete.
+ftp: 73478 bytes sent in 0.00Seconds 73478000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img03.gif.
+226 Transfer complete.
+ftp: 139792 bytes sent in 0.00Seconds 139792000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img04.gif.
+226 Transfer complete.
+ftp: 61265 bytes sent in 0.00Seconds 61265000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img05.gif.
+226 Transfer complete.
+ftp: 101906 bytes sent in 0.02Seconds 6369.13Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img06.gif.
+226 Transfer complete.
+ftp: 62112 bytes sent in 0.00Seconds 62112000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img07.gif.
+226 Transfer complete.
+ftp: 82973 bytes sent in 0.02Seconds 5185.81Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img08.gif.
+226 Transfer complete.
+ftp: 73523 bytes sent in 0.00Seconds 73523000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img09.gif.
+226 Transfer complete.
+ftp: 65197 bytes sent in 0.00Seconds 65197000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a31img10.gif.
+226 Transfer complete.
+ftp: 44143 bytes sent in 0.00Seconds 44143000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for seta.gif.
+226 Transfer complete.
+ftp: 86 bytes sent in 0.00Seconds 86000.00Kbytes/sec.
+ftp> ftp> mput *.j??
+*.j??:File not found 
+ftp> mput *.J??
+*.J??:File not found 
+mkdir html
+521 "/home/proceedings/www/htdocs/img/eventos/sia/n1/html" directory exists
+ftp> pwd
+257 "/home/proceedings/www/htdocs/img/eventos/sia/n1" is current directory.
+ftp> cd html
+250 CWD command successful.
+ftp> Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n1.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n1\html.
+ftp> lcd html
+ascii
+200 Type set to A.
+ftp> ftp> mput *.h??
+*.h??:File not found 
+ftp> mput *.H??
+*.H??:File not found 
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n1\html.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n1.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n1.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\img.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd ..
+pwd
+257 "/home/proceedings/www/htdocs/img/eventos/sia/n1/html" is current directory.
+ftp> cd ../../../../../../bases/pdf
+250 CWD command successful.
+ftp> mkdir sia
+521 "/home/proceedings/www/bases/pdf/sia" directory exists
+ftp> mkdir sia/n1
+521 "/home/proceedings/www/bases/pdf/sia/n1" directory exists
+ftp> pwd
+257 "/home/proceedings/www/bases/pdf" is current directory.
+ftp> cd sia/n1
+250 CWD command successful.
+ftp> Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\pdf\sia\n1.
+ftp> lcd pdf/sia/n1
+bin
+200 Type set to I.
+ftp> ftp> mput *.p??
+*.p??:File not found 
+ftp> mput *.P??
+*.P??:File not found 
+pwd
+257 "/home/proceedings/www/bases/pdf/sia/n1" is current directory.
+ftp> cd ../../../../
+250 CWD command successful.
+ftp> Local directory now C:\scieloproceedings\web\htdocs\pdf\sia\n1.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\pdf\sia.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\pdf\sia.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\pdf.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\pdf.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd ..
+ftp> 
+pwd
+257 "/home/proceedings/www" is current directory.
+ftp> cd htdocs/img/eventos
+250 CWD command successful.
+ftp> mkdir sia
+521 "/home/proceedings/www/htdocs/img/eventos/sia" directory exists
+ftp> mkdir sia/n2
+521 "/home/proceedings/www/htdocs/img/eventos/sia/n2" directory exists
+ftp> pwd
+257 "/home/proceedings/www/htdocs/img/eventos" is current directory.
+ftp> cd sia/n2
+250 CWD command successful.
+ftp> Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n2.
+ftp> lcd img/eventos/sia/n2
+bin
+200 Type set to I.
+ftp> mput *.g??
+200 PORT command successful.
+150 Opening BINARY mode data connection for a101img1.gif.
+226 Transfer complete.
+ftp: 45988 bytes sent in 0.03Seconds 1437.13Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a107img1.gif.
+226 Transfer complete.
+ftp: 904 bytes sent in 0.01Seconds 60.27Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a108qdr1.gif.
+226 Transfer complete.
+ftp: 214520 bytes sent in 0.03Seconds 6703.75Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a108qdr2.gif.
+226 Transfer complete.
+ftp: 50542 bytes sent in 0.02Seconds 3158.88Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a116img1.gif.
+226 Transfer complete.
+ftp: 125537 bytes sent in 0.03Seconds 3923.03Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a117img1.gif.
+226 Transfer complete.
+ftp: 899 bytes sent in 0.01Seconds 59.93Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a118img1.gif.
+226 Transfer complete.
+ftp: 62687 bytes sent in 0.02Seconds 3917.94Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a120grf1.gif.
+226 Transfer complete.
+ftp: 13973 bytes sent in 0.01Seconds 931.53Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a120grf2.gif.
+226 Transfer complete.
+ftp: 16654 bytes sent in 0.02Seconds 1040.88Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a120grf3.gif.
+226 Transfer complete.
+ftp: 20699 bytes sent in 0.02Seconds 1293.69Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a124tab1.gif.
+226 Transfer complete.
+ftp: 7623 bytes sent in 0.01Seconds 508.20Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a124tab2.gif.
+226 Transfer complete.
+ftp: 9358 bytes sent in 0.00Seconds 9358000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a124tab3.gif.
+226 Transfer complete.
+ftp: 11849 bytes sent in 0.01Seconds 789.93Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a124tab4.gif.
+226 Transfer complete.
+ftp: 15022 bytes sent in 0.02Seconds 938.88Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129img1.gif.
+226 Transfer complete.
+ftp: 44157 bytes sent in 0.01Seconds 2943.80Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129img2.gif.
+226 Transfer complete.
+ftp: 895 bytes sent in 0.02Seconds 55.94Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129qdr1.gif.
+226 Transfer complete.
+ftp: 47358 bytes sent in 0.02Seconds 2959.88Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129qdr2.gif.
+226 Transfer complete.
+ftp: 22806 bytes sent in 0.00Seconds 22806000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129tab1.gif.
+226 Transfer complete.
+ftp: 41347 bytes sent in 0.01Seconds 2756.47Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a44img01.gif.
+226 Transfer complete.
+ftp: 848 bytes sent in 0.02Seconds 53.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a48img01.gif.
+226 Transfer complete.
+ftp: 865 bytes sent in 0.02Seconds 54.06Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a54img01.gif.
+226 Transfer complete.
+ftp: 5479 bytes sent in 0.02Seconds 342.44Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a57img01.gif.
+226 Transfer complete.
+ftp: 853 bytes sent in 0.02Seconds 53.31Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a59qdr01.gif.
+226 Transfer complete.
+ftp: 124626 bytes sent in 0.03Seconds 4020.19Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a60qdr01.gif.
+226 Transfer complete.
+ftp: 52704 bytes sent in 0.01Seconds 3513.60Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a60qdr02.gif.
+226 Transfer complete.
+ftp: 55778 bytes sent in 0.01Seconds 3718.53Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a60qdr03.gif.
+226 Transfer complete.
+ftp: 51949 bytes sent in 0.02Seconds 3246.81Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a60qdr04.gif.
+226 Transfer complete.
+ftp: 43173 bytes sent in 0.02Seconds 2698.31Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a61qdr01.gif.
+226 Transfer complete.
+ftp: 77493 bytes sent in 0.03Seconds 2499.77Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a61qdr02.gif.
+226 Transfer complete.
+ftp: 49685 bytes sent in 0.01Seconds 3312.33Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a61qdr03.gif.
+226 Transfer complete.
+ftp: 78202 bytes sent in 0.03Seconds 2522.65Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a61qdr04.gif.
+226 Transfer complete.
+ftp: 122910 bytes sent in 0.05Seconds 2615.11Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62fig01.gif.
+226 Transfer complete.
+ftp: 375352 bytes sent in 0.05Seconds 7986.21Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62img01.gif.
+226 Transfer complete.
+ftp: 46867 bytes sent in 0.00Seconds 46867000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62img02.gif.
+226 Transfer complete.
+ftp: 8212 bytes sent in 0.00Seconds 8212000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62img03.gif.
+226 Transfer complete.
+ftp: 6660 bytes sent in 0.01Seconds 444.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62img04.gif.
+226 Transfer complete.
+ftp: 9843 bytes sent in 0.03Seconds 317.52Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a65img01.gif.
+226 Transfer complete.
+ftp: 14516 bytes sent in 0.02Seconds 907.25Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a65img02.gif.
+226 Transfer complete.
+ftp: 7946 bytes sent in 0.01Seconds 529.73Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a65img03.gif.
+226 Transfer complete.
+ftp: 7037 bytes sent in 0.02Seconds 439.81Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67fig01.gif.
+226 Transfer complete.
+ftp: 42282 bytes sent in 0.02Seconds 2642.63Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67fig02.gif.
+226 Transfer complete.
+ftp: 36548 bytes sent in 0.00Seconds 36548000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67fig03.gif.
+226 Transfer complete.
+ftp: 32704 bytes sent in 0.01Seconds 2180.27Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67tab01.gif.
+226 Transfer complete.
+ftp: 25993 bytes sent in 0.02Seconds 1624.56Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67tab02.gif.
+226 Transfer complete.
+ftp: 40095 bytes sent in 0.02Seconds 2505.94Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a72tab01.gif.
+226 Transfer complete.
+ftp: 150073 bytes sent in 0.02Seconds 9379.56Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a72tab02.gif.
+226 Transfer complete.
+ftp: 125492 bytes sent in 0.02Seconds 7843.25Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a72tab03.gif.
+226 Transfer complete.
+ftp: 135098 bytes sent in 0.03Seconds 4358.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a82tab01.gif.
+226 Transfer complete.
+ftp: 22682 bytes sent in 0.01Seconds 1512.13Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a82tab02.gif.
+226 Transfer complete.
+ftp: 41663 bytes sent in 0.02Seconds 2603.94Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86img01.gif.
+226 Transfer complete.
+ftp: 64543 bytes sent in 0.02Seconds 4033.94Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86img02.gif.
+226 Transfer complete.
+ftp: 129191 bytes sent in 0.01Seconds 8612.73Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86img03.gif.
+226 Transfer complete.
+ftp: 65628 bytes sent in 0.02Seconds 4101.75Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86tab01.gif.
+226 Transfer complete.
+ftp: 21953 bytes sent in 0.01Seconds 1463.53Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86tab02.gif.
+226 Transfer complete.
+ftp: 18235 bytes sent in 0.01Seconds 1215.67Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86tab03.gif.
+226 Transfer complete.
+ftp: 19246 bytes sent in 0.00Seconds 19246000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a87tab01.gif.
+226 Transfer complete.
+ftp: 68392 bytes sent in 0.01Seconds 4559.47Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for glogo.gif.
+226 Transfer complete.
+ftp: 23363 bytes sent in 0.02Seconds 1460.19Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for plogo.gif.
+226 Transfer complete.
+ftp: 8573 bytes sent in 0.02Seconds 535.81Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for seta.gif.
+226 Transfer complete.
+ftp: 86 bytes sent in 0.02Seconds 5.38Kbytes/sec.
+ftp> mput *.G??
+200 PORT command successful.
+150 Opening BINARY mode data connection for a101img1.gif.
+226 Transfer complete.
+ftp: 45988 bytes sent in 0.00Seconds 45988000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a107img1.gif.
+226 Transfer complete.
+ftp: 904 bytes sent in 0.00Seconds 904000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a108qdr1.gif.
+226 Transfer complete.
+ftp: 214520 bytes sent in 0.02Seconds 13407.50Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a108qdr2.gif.
+226 Transfer complete.
+ftp: 50542 bytes sent in 0.00Seconds 50542000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a116img1.gif.
+226 Transfer complete.
+ftp: 125537 bytes sent in 0.00Seconds 125537000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a117img1.gif.
+226 Transfer complete.
+ftp: 899 bytes sent in 0.00Seconds 899000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a118img1.gif.
+226 Transfer complete.
+ftp: 62687 bytes sent in 0.00Seconds 62687000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a120grf1.gif.
+226 Transfer complete.
+ftp: 13973 bytes sent in 0.00Seconds 13973000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a120grf2.gif.
+226 Transfer complete.
+ftp: 16654 bytes sent in 0.00Seconds 16654000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a120grf3.gif.
+226 Transfer complete.
+ftp: 20699 bytes sent in 0.00Seconds 20699000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a124tab1.gif.
+226 Transfer complete.
+ftp: 7623 bytes sent in 0.00Seconds 7623000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a124tab2.gif.
+226 Transfer complete.
+ftp: 9358 bytes sent in 0.00Seconds 9358000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a124tab3.gif.
+226 Transfer complete.
+ftp: 11849 bytes sent in 0.00Seconds 11849000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a124tab4.gif.
+226 Transfer complete.
+ftp: 15022 bytes sent in 0.00Seconds 15022000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129img1.gif.
+226 Transfer complete.
+ftp: 44157 bytes sent in 0.00Seconds 44157000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129img2.gif.
+226 Transfer complete.
+ftp: 895 bytes sent in 0.00Seconds 895000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129qdr1.gif.
+226 Transfer complete.
+ftp: 47358 bytes sent in 0.00Seconds 47358000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129qdr2.gif.
+226 Transfer complete.
+ftp: 22806 bytes sent in 0.00Seconds 22806000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a129tab1.gif.
+226 Transfer complete.
+ftp: 41347 bytes sent in 0.00Seconds 41347000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a44img01.gif.
+226 Transfer complete.
+ftp: 848 bytes sent in 0.00Seconds 848000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a48img01.gif.
+226 Transfer complete.
+ftp: 865 bytes sent in 0.00Seconds 865000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a54img01.gif.
+226 Transfer complete.
+ftp: 5479 bytes sent in 0.00Seconds 5479000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a57img01.gif.
+226 Transfer complete.
+ftp: 853 bytes sent in 0.00Seconds 853000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a59qdr01.gif.
+226 Transfer complete.
+ftp: 124626 bytes sent in 0.02Seconds 7789.13Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a60qdr01.gif.
+226 Transfer complete.
+ftp: 52704 bytes sent in 0.00Seconds 52704000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a60qdr02.gif.
+226 Transfer complete.
+ftp: 55778 bytes sent in 0.00Seconds 55778000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a60qdr03.gif.
+226 Transfer complete.
+ftp: 51949 bytes sent in 0.00Seconds 51949000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a60qdr04.gif.
+226 Transfer complete.
+ftp: 43173 bytes sent in 0.00Seconds 43173000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a61qdr01.gif.
+226 Transfer complete.
+ftp: 77493 bytes sent in 0.00Seconds 77493000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a61qdr02.gif.
+226 Transfer complete.
+ftp: 49685 bytes sent in 0.00Seconds 49685000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a61qdr03.gif.
+226 Transfer complete.
+ftp: 78202 bytes sent in 0.00Seconds 78202000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a61qdr04.gif.
+226 Transfer complete.
+ftp: 122910 bytes sent in 0.02Seconds 7681.88Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62fig01.gif.
+226 Transfer complete.
+ftp: 375352 bytes sent in 0.03Seconds 12108.13Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62img01.gif.
+226 Transfer complete.
+ftp: 46867 bytes sent in 0.00Seconds 46867000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62img02.gif.
+226 Transfer complete.
+ftp: 8212 bytes sent in 0.00Seconds 8212000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62img03.gif.
+226 Transfer complete.
+ftp: 6660 bytes sent in 0.00Seconds 6660000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a62img04.gif.
+226 Transfer complete.
+ftp: 9843 bytes sent in 0.00Seconds 9843000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a65img01.gif.
+226 Transfer complete.
+ftp: 14516 bytes sent in 0.00Seconds 14516000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a65img02.gif.
+226 Transfer complete.
+ftp: 7946 bytes sent in 0.00Seconds 7946000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a65img03.gif.
+226 Transfer complete.
+ftp: 7037 bytes sent in 0.00Seconds 7037000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67fig01.gif.
+226 Transfer complete.
+ftp: 42282 bytes sent in 0.00Seconds 42282000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67fig02.gif.
+226 Transfer complete.
+ftp: 36548 bytes sent in 0.00Seconds 36548000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67fig03.gif.
+226 Transfer complete.
+ftp: 32704 bytes sent in 0.00Seconds 32704000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67tab01.gif.
+226 Transfer complete.
+ftp: 25993 bytes sent in 0.00Seconds 25993000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a67tab02.gif.
+226 Transfer complete.
+ftp: 40095 bytes sent in 0.00Seconds 40095000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a72tab01.gif.
+226 Transfer complete.
+ftp: 150073 bytes sent in 0.01Seconds 10004.87Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a72tab02.gif.
+226 Transfer complete.
+ftp: 125492 bytes sent in 0.00Seconds 125492000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a72tab03.gif.
+226 Transfer complete.
+ftp: 135098 bytes sent in 0.02Seconds 8443.63Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a82tab01.gif.
+226 Transfer complete.
+ftp: 22682 bytes sent in 0.00Seconds 22682000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a82tab02.gif.
+226 Transfer complete.
+ftp: 41663 bytes sent in 0.00Seconds 41663000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86img01.gif.
+226 Transfer complete.
+ftp: 64543 bytes sent in 0.00Seconds 64543000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86img02.gif.
+226 Transfer complete.
+ftp: 129191 bytes sent in 0.00Seconds 129191000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86img03.gif.
+226 Transfer complete.
+ftp: 65628 bytes sent in 0.00Seconds 65628000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86tab01.gif.
+226 Transfer complete.
+ftp: 21953 bytes sent in 0.00Seconds 21953000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86tab02.gif.
+226 Transfer complete.
+ftp: 18235 bytes sent in 0.00Seconds 18235000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a86tab03.gif.
+226 Transfer complete.
+ftp: 19246 bytes sent in 0.00Seconds 19246000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for a87tab01.gif.
+226 Transfer complete.
+ftp: 68392 bytes sent in 0.00Seconds 68392000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for glogo.gif.
+226 Transfer complete.
+ftp: 23363 bytes sent in 0.00Seconds 23363000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for plogo.gif.
+226 Transfer complete.
+ftp: 8573 bytes sent in 0.00Seconds 8573000.00Kbytes/sec.
+200 PORT command successful.
+150 Opening BINARY mode data connection for seta.gif.
+226 Transfer complete.
+ftp: 86 bytes sent in 0.00Seconds 86000.00Kbytes/sec.
+ftp> mput *.j??
+200 PORT command successful.
+150 Opening BINARY mode data connection for a54img02.jpg.
+226 Transfer complete.
+ftp: 65328 bytes sent in 0.02Seconds 4083.00Kbytes/sec.
+ftp> mput *.J??
+200 PORT command successful.
+150 Opening BINARY mode data connection for a54img02.jpg.
+226 Transfer complete.
+ftp: 65328 bytes sent in 0.00Seconds 65328000.00Kbytes/sec.
+ftp> mkdir html
+521 "/home/proceedings/www/htdocs/img/eventos/sia/n2/html" directory exists
+ftp> pwd
+257 "/home/proceedings/www/htdocs/img/eventos/sia/n2" is current directory.
+ftp> cd html
+250 CWD command successful.
+ftp> Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n2.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n2\html.
+ftp> lcd html
+ascii
+200 Type set to A.
+ftp> ftp> mput *.h??
+*.h??:File not found 
+ftp> mput *.H??
+*.H??:File not found 
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n2\html.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n2.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia\n2.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos\sia.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\img\eventos.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\img.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\img.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd ..
+pwd
+257 "/home/proceedings/www/htdocs/img/eventos/sia/n2/html" is current directory.
+ftp> cd ../../../../../../bases/pdf
+250 CWD command successful.
+ftp> mkdir sia
+521 "/home/proceedings/www/bases/pdf/sia" directory exists
+ftp> mkdir sia/n2
+521 "/home/proceedings/www/bases/pdf/sia/n2" directory exists
+ftp> pwd
+257 "/home/proceedings/www/bases/pdf" is current directory.
+ftp> cd sia/n2
+250 CWD command successful.
+ftp> Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\pdf\sia\n2.
+ftp> lcd pdf/sia/n2
+bin
+200 Type set to I.
+ftp> ftp> mput *.p??
+*.p??:File not found 
+ftp> mput *.P??
+*.P??:File not found 
+pwd
+257 "/home/proceedings/www/bases/pdf/sia/n2" is current directory.
+ftp> cd ../../../../
+250 CWD command successful.
+ftp> Local directory now C:\scieloproceedings\web\htdocs\pdf\sia\n2.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\pdf\sia.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\pdf\sia.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs\pdf.
+ftp> lcd ..
+Local directory now C:\scieloproceedings\web\htdocs\pdf.
+ftp> lcd .
+Local directory now C:\scieloproceedings\web\htdocs.
+ftp> lcd ..
+bye 
+221-You have transferred 7729964 bytes in 156 files.
+221-Total traffic for this session was 7755982 bytes in 156 transfers.
+221-Thank you for using the FTP service on scielo3.bireme.br.
+221 Goodbye.
+[batch\ImgPdfDelDirVazio.bat] 
+    Deleta diretorios vazios criados    
+ 
+[batch\DelDirVazio.bat] 
+    Deleta diretorio: \scieloproceedings\web\htdocs\img\eventos\sia\n1\html     
+ 
+[batch\DelDirVazio.bat] 
+    Deleta diretorio: \scieloproceedings\web\htdocs\pdf\sia\n1     
+ 
+[batch\DelDirVazio.bat] 
+    Deleta diretorio: \scieloproceedings\web\htdocs\img\eventos\sia\n2\html     
+ 
+[batch\DelDirVazio.bat] 
+    Deleta diretorio: \scieloproceedings\web\htdocs\pdf\sia\n2     
+ 
+[batch\DelDirVazio.bat] 
+    Deleta diretorio: \scieloproceedings\web\htdocs\pdf\sia     
+ 
+[VERSAO 2.0]
+   20070308 1531
+[EnviaImgPdfScielo.bat] 
+    Fim LOG gravado em: log\EnviaImgPdfScieloPadrao.log   
+ 

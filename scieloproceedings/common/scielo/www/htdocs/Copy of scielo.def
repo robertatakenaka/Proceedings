@@ -1,0 +1,76 @@
+[SITE_INFO]
+SITE_NAME=SciELO Proceedings
+SHORT_NAME=SciELO Proceedings
+SITE_AUTHOR=FAPESP - BIREME
+ADDRESS_1=Rua Botucatu, 862 - Vila Clementino
+ADDRESS_2=04023-901 São Paulo SP
+COUNTRY_1=Brazil^len
+COUNTRY_2=Brasil^lpt
+COUNTRY_3=Brasil^les
+PHONE_NUMBER=(55 11) 5576-9863
+FAX_NUMBER=(55 11) 5575-8868
+E_MAIL=scielo@bireme.br
+STANDARD_LANG=en
+APP_NAME=scielo
+DBTITLE_EN=Events
+DBTITLE_ES=Eventos
+DBTITLE_PT=Eventos
+DBARTICLE_EN=Papers
+DBARTICLE_ES=Trabajos
+DBARTICLE_PT=Trabalhos
+
+[LILACS]
+SERVER_LILACS=www.bireme.br
+PATH_WXIS_LILACS=/cgi-bin/wxislind.exe
+PATH_CGI_BIN_IAH_LILACS=iah/
+PATH_DATA_IAH_LILACS=/iah/online/
+
+[MEDLINE]
+SERVER_MEDLINE=www.bireme.br
+PATH_WXIS_MEDLINE=/cgi-bin/wxislind.exe
+PATH_CGI_BIN_IAH_MEDLINE=iah/
+PATH_DATA_IAH_MEDLINE=/iah/online/
+
+[SCIELO Proceedings]
+SERVER_SCIELO=localhost
+PATH_WXIS_SCIELO=/cgi-bin/wxis.exe
+PATH_CGI_BIN_IAH_SCIELO=iah/
+PATH_DATA_IAH_SCIELO=/iah/
+
+[ADOLEC]
+SERVER_ADOLEC=www.bireme.br
+PATH_WXIS_ADOLEC=/cgi-bin/wxislind.exe
+PATH_CGI_BIN_IAH_ADOLEC=iah/
+PATH_DATA_IAH_ADOLEC=/iah/online/
+
+[PATH]
+PATH_DATA=/
+PATH_CGI-BIN=/cgi-bin/
+PATH_SCRIPTS=ScieloXML/
+PATH_GENIMG=img/
+PATH_SERIMG=img/eventos/
+PATH_SERIAL_HTML=/eventos/
+PATH_XSL=/scieloproceedings/web/htdocs/xsl/
+PATH_DATABASE=/scieloproceedings/web/bases/
+PATH_SETTINGS=
+PATH_PDF=/scieloproceedings/web/bases/pdf/
+PATH_TRANSLATION=/scieloproceedings/web/bases/translation/
+
+
+[LOG]
+ACTIVATE_LOG=0
+ENABLE_STATISTICS_LINK=0
+ENABLE_CITATION_REPORTS_LINK=0
+SERVER_LOG=
+SCRIPT_LOG_NAME=updateLog.php
+MYSQL_USER = 
+MYSQL_PASSWORD = 
+
+[LOG_DATABASE_INFO]
+DB_NAME = 
+TABLE_NAME = 
+TABLE_JOURNALS_NAME = 
+TABLE_ISSUES_NAME = 
+TABLE_ARTICLES_NAME = 
+ADMIN_EMAIL = 
+

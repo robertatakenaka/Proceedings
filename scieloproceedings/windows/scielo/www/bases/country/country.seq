@@ -1,0 +1,645 @@
+^cAF^vAfghanistan^len
+^cAL^vAlbania^len
+^cDZ^vAlgeria^len
+^cAS^vAmerican Samoa^len
+^cAD^vAndorra^len
+^cAO^vAngola^len
+^cAQ^vAntarctica^len
+^cAG^vAntigua^len
+^cAR^vArgentina^len
+^cAU^vAustralia^len
+^cAT^vAustria^len
+^cBS^vBahamas^len
+^cBH^vBahrain^len
+^cBD^vBangladesh^len
+^cBB^vBarbados^len
+^cBE^vBelgium^len
+^cBZ^vBelize^len
+^cBM^vBermuda^len
+^cBT^vBhutan^len
+^cBO^vBolivia^len
+^cBW^vBotswana^len
+^cBV^vBouvet Island^len
+^cBR^vBrazil^len
+^cVG^vBritish Virgin Islands^len
+^cBN^vBrunei^len
+^cBG^vBulgaria^len
+^cBU^vBurma^len
+^cBI^vBurundi^len
+^cBY^vByelorussian RSS^len
+^cCM^vCameroon^len
+^cCA^vCanada^len
+^cCV^vCape Verde^len
+^cCF^vCentral African Rep.^len
+^cTD^vChad^len
+^cCL^vChile^len
+^cCN^vChina^len
+^cCO^vColombia^len
+^cCG^vCongo^len
+^cCR^vCosta Rica^len
+^cCU^vCuba^len
+^cCY^vCyprus^len
+^cCS^vCzechoslovakia^len
+^cDK^vDenmark^len
+^cDM^vDominica^len
+^cDO^vDominican Republic^len
+^cNQ^vDronning Maud Land^len
+^cEC^vEcuador^len
+^cEG^vEgypt^len
+^cSV^vEl Salvador^len
+^cET^vEthiopia^len
+^cFK^vFalkland Islands(Malvinas)^len
+^cFJ^vFiji^len
+^cFI^vFiland^len
+^cFR^vFrance^len
+^cGF^vFrench Guiana^len
+^cPF^vFrench Polynesia^len
+^cGA^vGabon^len
+^cDD^vGerman Democratic Republic^len
+^cDE^vGermany, Federal Republic^len
+^cGH^vGhana^len
+^cGI^vGibraltar^len
+^cGR^vGreece^len
+^cGL^vGreenland^len
+^cGD^vGrenada^len
+^cGP^vGuadeloupe^len
+^cGU^vGuam^len
+^cGT^vGuatemala^len
+^cGC^vGuinea Ecuatorial^len
+^cGN^vGuinea^len
+^cGW^vGuinea-Bissau^len
+^cGY^vGuyana^len
+^cHT^vHaiti^len
+^cHN^vHonduras^len
+^cHK^vHong Kong^len
+^cHU^vHungary^len
+^cIS^vIceland^len
+^cIN^vIndia^len
+^cID^vIndonesia^len
+^cIR^vIran^len
+^cIQ^vIraq^len
+^cIE^vIreland^len
+^cCX^vIsla de Navidad^len
+^cJT^vIsla Johnston^len
+^cNU^vIsla Niue^len
+^cWK^vIsla Wake^len
+^cPU^vIslands Miscellaneous^len
+^cCT^vIslas Canton y Enderbury^len
+^cCC^vIslas Cocos (Keeling)^len
+^cCK^vIslas Cook^len
+^cFO^vIslas Feroe^len
+^cHM^vIslas Heard y Mc Donald^len
+^cMI^vIslas Midway^len
+^cPN^vIslas Pitcairn^len
+^cSB^vIslas Salomón Británico^len
+^cSJ^vIslas Svalbard y Jan Mayen^len
+^cTK^vIslas Tokelau^len
+^cWF^vIslas Wallis y Futuna^len
+^cIL^vIsrael^len
+^cIT^vItaly^len
+^cYU^vIugoslavia^len
+^cCI^vIvory Coast^len
+^cJM^vJamaica^len
+^cJP^vJapan^len
+^cJO^vJordan^len
+^cKM^vKamoras Islands^len
+^cKH^vKampuchea Democrática^len
+^cKY^vKayman Islands^len
+^cKE^vKenya^len
+^cKD^vKorea, Democratic People's ^len
+^cKP^vKorea, Democratic People's^len
+^cKR^vKorea, Republic of^len
+^cKW^vKuwait^len
+^cLD^vLao People's Democratic ^len
+^cLB^vLebanon^len
+^cLS^vLesotho^len
+^cLR^vLiberia^len
+^cLY^vLibyan^len
+^cLI^vLiechtenstein^len
+^cLU^vLuxembourg^len
+^cMO^vMacau^len
+^cMG^vMadagascar^len
+^cMW^vMalawi^len
+^cMY^vMalaysia^len
+^cMV^vMaldivas^len
+^cML^vMali^len
+^cMT^vMalta^len
+^cMQ^vMartinique^len
+^cMR^vMauritania^len
+^cMU^vMauritius^len
+^cMX^vMexico^len
+^cMC^vMonaco^len
+^cMN^vMongolia^len
+^cMS^vMontserrat^len
+^cMA^vMorocco^len
+^cMZ^vMozambique^len
+^cNA^vNamibia^len
+^cNR^vNauru^len
+^cNP^vNepal^len
+^cNL^vNetherlands^len
+^cAN^vNetherlands Antilles^len
+^cNC^vNew Caledonia^len
+^cNZ^vNew Zealand^len
+^cNI^vNicaragua^len
+^cNE^vNiger^len
+^cNG^vNigeria^len
+^cNF^vNorfolk Island^len
+^cNO^vNorway^len
+^cNH^vNuevas Hébridas^len
+^cOM^vOman^len
+^cPC^vPacific Islands^len
+^cPK^vPakistan^len
+^cPA^vPanama^len
+^cPG^vPapua New Guinea^len
+^cPY^vParaguay^len
+^cPE^vPeru^len
+^cPH^vPhilippines^len
+^cPL^vPoland^len
+^cPT^vPortugal^len
+^cPR^vPuerto Rico^len
+^cQA^vQatar^len
+^cLA^vRepublic^len
+^cRE^vRéunion^len
+^cRO^vRomania^len
+^cRW^vRwanda^len
+^cPM^vS. Pedro y Miguelón^len
+^cLC^vSaint Lucia^len
+^cVC^vSaint Vincent^len
+^cWS^vSamoa^len
+^cKN^vSan Cristóbal-Nieves-Anguila^len
+^cSM^vSan Marino^len
+^cST^vSao Tome and Principe^len
+^cSA^vSaudi Arabia^len
+^cSC^vSeichelles^len
+^cSN^vSenegal^len
+^cSL^vSierra Leone^len
+^cSK^vSikkim^len
+^cSG^vSingapur^len
+^cSO^vSomalia^len
+^cZA^vSouth Africa^len
+^cES^vSpain^len
+^cLK^vSri Lanka^len
+^cSH^vSt. Helena^len
+^cSD^vSudan^len
+^cSR^vSuriname^len
+^cSZ^vSwaziland^len
+^cSE^vSweden^len
+^cCH^vSwitzerland^len
+^cSY^vSyrian Arab Republic^len
+^cTW^vTaiwan^len
+^cTZ^vTanzania^len
+^cTH^vThailand^len
+^cTG^vTogo^len
+^cTO^vTonga^len
+^cTT^vTrinidad and Tobago^len
+^cTN^vTunisia^len
+^cTR^vTurkey^len
+^cTC^vTurks and Caicos Islands^len
+^cUG^vUganda^len
+^cUA^vUkrainian RSS^len
+^cAE^vUnited Arab Emirates^len
+^cGB^vUnited Kingdom^len
+^cUS^vUnited States^len
+^cUP^vUnited States Pacific^len
+^cHV^vUpper Volta^len
+^cSU^vURSS^len
+^cUY^vUruguay^len
+^cVU^vVanuatu^len
+^cVA^vVatican City State^len
+^cVE^vVenezuela^len
+^cVN^vViet Nam^len
+^cEH^vWestern Sahara^len
+^cYE^vYemen^len
+^cYD^vYemen, Democratic^len
+^cZR^vZaire^len
+^cZM^vZambia^len
+^cAD^vAndorra^les
+^cAE^vEmiratos Arabes Unidos^les
+^cAF^vAfganistán^les
+^cAG^vAntigua^les
+^cAL^vAlbania^les
+^cAN^vAntillas Neerlandesas^les
+^cAO^vAngola^les
+^cAQ^vAntarctica^les
+^cAR^vArgentina^les
+^cAS^vSamoa Americana^les
+^cAT^vAustria^les
+^cAU^vAustralia^les
+^cBB^vBarbados^les
+^cBD^vBangladesh^les
+^cBE^vBélgica^les
+^cBG^vBulgaria^les
+^cBH^vBahrein^les
+^cBI^vBurundi^les
+^cBM^vBermudas^les
+^cBN^vBrunei^les
+^cBO^vBolivia^les
+^cBR^vBrasil^les
+^cBS^vBahamas^les
+^cBT^vBután^les
+^cBU^vBirmania^les
+^cBV^vIsla Bouvet^les
+^cBW^vBotswana^les
+^cBY^vRSS de Bielorrusia^les
+^cBZ^vBélice^les
+^cCA^vCanadá^les
+^cCF^vRepública Centroáfrica^les
+^cCG^vCongo^les
+^cCH^vSuiza^les
+^cCI^vCosta de Marfil^les
+^cCL^vChile^les
+^cCM^vCamerún^les
+^cCN^vChina^les
+^cCO^vColombia^les
+^cCR^vCosta Rica^les
+^cCS^vChecoslovaquia^les
+^cCU^vCuba^les
+^cCV^vIslas de Cabo Verde^les
+^cCY^vChipre^les
+^cDD^vAlemania, República Democrática^les
+^cDE^vAlemania, República Federal^les
+^cDK^vDinamarca^les
+^cDO^vRepública Dominicana^les
+^cDZ^vArgelia^les
+^cEC^vEcuador^les
+^cEG^vEgipto^les
+^cEH^vSahara Occidental^les
+^cES^vEspaña^les
+^cET^vEtiopía^les
+^cFI^vFinlandia^les
+^cFJ^vFiji^les
+^cFK^vIslas Malvinas (Falkland)^les
+^cFR^vFrancia^les
+^cGA^vGabón^les
+^cGB^vReino Unido^les
+^cGC^vGuinea Ecuatorial^les
+^cGD^vGranada^les
+^cGF^vGuiana Francesa^les
+^cGH^vGhana^les
+^cGI^vGibraltar^les
+^cGL^vGroenlandia^les
+^cGN^vGuinea^les
+^cGP^vGuadalupe^les
+^cGR^vGrecia^les
+^cGT^vGuatemala^les
+^cGU^vGuam^les
+^cGW^vGuinea Bissau^les
+^cGY^vGuyana^les
+^cHK^vHong Kong^les
+^cHN^vHonduras^les
+^cHT^vHaití^les
+^cHU^vHungría^les
+^cHV^vAlto Volta^les
+^cID^vIndonesia^les
+^cIE^vIrlanda^les
+^cIL^vIsrael^les
+^cIN^vIndia^les
+^cIQ^vIrak^les
+^cIR^vIrán^les
+^cIS^vIslandia^les
+^cIT^vItalia^les
+^cJM^vJamaica^les
+^cJO^vJordania^les
+^cJP^vJapón^les
+^cKD^vKorea, Democratic People's ^les
+^cKE^vKenia^les
+^cKH^vKampuchea Democrática^les
+^cKM^vIslas Comoras^les
+^cKP^vCorea, República Democrática Popular^les
+^cKR^vCorea, República de^les
+^cKW^vKuwait^les
+^cKY^vIslas Caimán^les
+^cLA^vLaos^les
+^cLB^vLíbano^les
+^cLC^vSanta Lucía^les
+^cLD^vLao People's Democratic ^les
+^cLI^vLiechtenstein^les
+^cLK^vSri Lanka^les
+^cLR^vLiberia^les
+^cLS^vLesotho^les
+^cLU^vLuxemburgo^les
+^cLY^vLibia^les
+^cMA^vMarruecos^les
+^cMC^vMónaco^les
+^cMG^vMadagascar^les
+^cMI^vIslas Midway^les
+^cML^vMalí^les
+^cMN^vMongolia^les
+^cMO^vMacao^les
+^cMQ^vMartinica^les
+^cMR^vMauritania^les
+^cMS^vMontserrat^les
+^cMT^vMalta^les
+^cMU^vMauricio^les
+^cMV^vMaldivas^les
+^cMW^vMalawi^les
+^cMX^vMéxico^les
+^cMY^vMalasia^les
+^cMZ^vMozambique^les
+^cNA^vNamibia^les
+^cNC^vNueva Caledonia^les
+^cNE^vNíger^les
+^cNF^vIsla Norfolk^les
+^cNG^vNigeria^les
+^cNH^vNuevas Hébridas^les
+^cNI^vNicaragua^les
+^cNL^vPaíses Bajos^les
+^cNO^vNoruega^les
+^cNP^vNepal^les
+^cNQ^vTerra de Maud Dronning^les
+^cNR^vNauru^les
+^cNU^vIsla Niue^les
+^cNZ^vNueva Zelandia^les
+^cOM^vOmán^les
+^cPA^vPanamá^les
+^cPC^vIslas del Pacífico (Territorio en fideicomiso)^les
+^cPE^vPerú^les
+^cPF^vPolinesia Francesa^les
+^cPG^vPapua Nueva Guinea^les
+^cPH^vFilipinas^les
+^cPK^vPakistán^les
+^cPL^vPolonia^les
+^cPM^vS. Pedro y Miguelón^les
+^cPN^vIslas Pitcairn^les
+^cPR^vPuerto Rico^les
+^cPT^vPortugal^les
+^cPU^vIslas diversas del Pacífico (US)^les
+^cPY^vParaguay^les
+^cQA^vQatar^les
+^cRE^vReunión^les
+^cRO^vRumania^les
+^cRW^vRwanda^les
+^cSA^vArabia Saudita^les
+^cSB^vIslas Salomón Británico^les
+^cSC^vSeychelles^les
+^cSD^vSudán^les
+^cSE^vSuecia^les
+^cSG^vSingapur^les
+^cSH^vSanta Elena^les
+^cSJ^vIslas Svalbard y Jan Mayen^les
+^cSK^vSikkim^les
+^cSL^vSierra Leona^les
+^cSM^vSan Marino^les
+^cSN^vSenegal^les
+^cSO^vSomalía^les
+^cSR^vSuriname^les
+^cST^vSto. Tomé y Príncipe^les
+^cSU^vURSS^les
+^cSV^vEl Salvador^les
+^cSY^vSiria^les
+^cSZ^vSwazilandia^les
+^cTC^vIslas Turcos y Caicos^les
+^cTD^vChad^les
+^cTG^vTogo^les
+^cTH^vTailandia^les
+^cTK^vIslas Tokelau^les
+^cTN^vTúnez^les
+^cTO^vTonga^les
+^cTR^vTurquía^les
+^cTT^vTrinidad y Tobago^les
+^cTW^vTaiwán^les
+^cTZ^vTanzania, Rep. Unida^les
+^cUA^vRSS de Ucrania^les
+^cUG^vUganda^les
+^cUP^vUnited States Pacific^les
+^cUS^vEstados Unidos^les
+^cUY^vUruguay^les
+^cVA^vCiudad del Vaticano^les
+^cVC^vSan Vicente^les
+^cVE^vVenezuela^les
+^cVG^vIslas Vírgenes Británicas^les
+^cVN^vVietnam^les
+^cVU^vVanuatu^les
+^cWF^vIslas Wallis y Futuna^les
+^cWK^vIsla Wake^les
+^cWS^vSamoa Ocidental^les
+^cYD^vYemen Democrático^les
+^cYE^vYemen^les
+^cYU^vYugoslavia^les
+^cZA^vSudáfrica^les
+^cZM^vZambia^les
+^cZR^vZaire^les
+^cCC^vIslas Cocos (Keeling)^les
+^cCK^vIslas Cook^les
+^cCT^vIslas Canton y Enderbury^les
+^cCX^vIsla de Navidad^les
+^cDM^vDominica^les
+^cFO^vIslas Feroe^les
+^cHM^vIslas Heard y Mc Donald^les
+^cJT^vIsla Johnston^les
+^cKN^vSan Cristóbal-Nieves-Anguila^les
+^cAF^vAfeganistão^lpt
+^cZA^vAfrica do Sul^lpt
+^cAL^vAlbânia^lpt
+^cDD^vAlemanha, R. Democrát.^lpt
+^cDE^vAlemanha, R. Federal^lpt
+^cHV^vAlto Volta^lpt
+^cAD^vAndorra^lpt
+^cAO^vAngola^lpt
+^cAQ^vAntártida^lpt
+^cAG^vAntígua^lpt
+^cAN^vAntilhas Holandesas^lpt
+^cSA^vArábia Saudita^lpt
+^cDZ^vArgélia^lpt
+^cAR^vArgentina^lpt
+^cAU^vAustrália^lpt
+^cAT^vAustria^lpt
+^cBS^vBahamas^lpt
+^cBD^vBangladesh^lpt
+^cBB^vBarbados^lpt
+^cBH^vBarém^lpt
+^cBE^vBélgica^lpt
+^cBZ^vBelice^lpt
+^cBM^vBermudas^lpt
+^cBU^vBirmânia^lpt
+^cBO^vBolívia^lpt
+^cBW^vBotsuana^lpt
+^cBR^vBrasil^lpt
+^cBN^vBrunei^lpt
+^cBG^vBulgária^lpt
+^cBI^vBurundi^lpt
+^cBT^vButão^lpt
+^cCM^vCamarões^lpt
+^cCA^vCanadá^lpt
+^cQA^vCatar^lpt
+^cTD^vChade^lpt
+^cCL^vChile^lpt
+^cCN^vChina^lpt
+^cCY^vChipre^lpt
+^cVA^vCidade do Vaticano^lpt
+^cCO^vColômbia^lpt
+^cCG^vCongo^lpt
+^cKR^vCoréia^lpt
+^cKP^vCoréia, R. D. Popular^lpt
+^cCI^vCosta de Marfin^lpt
+^cCR^vCosta Rica^lpt
+^cKW^vCoveite^lpt
+^cCU^vCuba^lpt
+^cDK^vDinamarca^lpt
+^cDM^vDominica^lpt
+^cEG^vEgito^lpt
+^cSV^vEl Salvador^lpt
+^cAE^vEmirados Arábes Unidos^lpt
+^cEC^vEquador^lpt
+^cES^vEspanha^lpt
+^cUS^vEstados Unidos^lpt
+^cET^vEtiópia^lpt
+^cFJ^vFiji^lpt
+^cFI^vFilândia^lpt
+^cPH^vFilipinas^lpt
+^cTW^vFormosa^lpt
+^cFR^vFrança^lpt
+^cGA^vGabão^lpt
+^cGH^vGana^lpt
+^cGI^vGibraltar^lpt
+^cGD^vGranada^lpt
+^cGR^vGrécia^lpt
+^cGL^vGroenlândia^lpt
+^cGP^vGuadalupe^lpt
+^cGU^vGuam^lpt
+^cGT^vGuatemala^lpt
+^cGY^vGuiana^lpt
+^cGF^vGuiana Francesa^lpt
+^cGN^vGuiné^lpt
+^cGW^vGuiné Bissau^lpt
+^cGC^vGuiné Equatorial^lpt
+^cHT^vHaiti^lpt
+^cHN^vHonduras^lpt
+^cHK^vHong Kong^lpt
+^cHU^vHungria^lpt
+^cYE^vIêmen^lpt
+^cYD^vIêmen Democrático^lpt
+^cBV^vIlha Bouvet^lpt
+^cNF^vIlha Norfolk^lpt
+^cKY^vIlhas Caimã^lpt
+^cKM^vIlhas Comoras^lpt
+^cCV^vIlhas do Cabo Verde^lpt
+^cPC^vIlhas do Pacífico^lpt
+^cPU^vIlhas do Pacífico (US)^lpt
+^cFK^vIlhas Malvinas (Falkl.)^lpt
+^cTC^vIlhas Turcas e Caicos^lpt
+^cVG^vIlhas Virgens Britân.^lpt
+^cIN^vIndia^lpt
+^cID^vIndonésia^lpt
+^cIR^vIrã^lpt
+^cIQ^vIraque^lpt
+^cIE^vIrlanda^lpt
+^cCX^vIsla de Navidad^lpt
+^cJT^vIsla Johnston^lpt
+^cNU^vIsla Niue^lpt
+^cWK^vIsla Wake^lpt
+^cIS^vIslândia^lpt
+^cCT^vIslas Canton y Enderbury^lpt
+^cCC^vIslas Cocos (Keeling)^lpt
+^cCK^vIslas Cook^lpt
+^cFO^vIslas Feroe^lpt
+^cHM^vIslas Heard y Mc Donald^lpt
+^cMI^vIslas Midway^lpt
+^cPN^vIslas Pitcairn^lpt
+^cSB^vIslas Salomón Británico^lpt
+^cSJ^vIslas Svalbard y Jan Mayen^lpt
+^cTK^vIslas Tokelau^lpt
+^cWF^vIslas Wallis y Futuna^lpt
+^cIL^vIsrael^lpt
+^cIT^vItália^lpt
+^cYU^vIugoslávia^lpt
+^cJM^vJamaica^lpt
+^cJP^vJapão^lpt
+^cJO^vJordânia^lpt
+^cKH^vKampuchea Democrática^lpt
+^cKD^vKorea, Democratic People's ^lpt
+^cLD^vLao People's Democratic ^lpt
+^cLA^vLaos^lpt
+^cLS^vLesoto^lpt
+^cLB^vLíbano^lpt
+^cLR^vLiberia^lpt
+^cLY^vLíbia^lpt
+^cLI^vLiechtenstein^lpt
+^cLU^vLuxemburgo^lpt
+^cMO^vMacao^lpt
+^cMG^vMadagascar^lpt
+^cMY^vMalásia^lpt
+^cMW^vMalavi^lpt
+^cMV^vMaldivas^lpt
+^cML^vMali^lpt
+^cMT^vMalta^lpt
+^cMA^vMarrócos^lpt
+^cMQ^vMartinica^lpt
+^cMU^vMaurício^lpt
+^cMR^vMauritânia^lpt
+^cMX^vMéxico^lpt
+^cMZ^vMoçambique^lpt
+^cMC^vMonaco^lpt
+^cMN^vMongólio^lpt
+^cMS^vMonte Serrat^lpt
+^cNA^vNamíbia^lpt
+^cNR^vNauru^lpt
+^cNP^vNepal^lpt
+^cNI^vNicarágua^lpt
+^cNE^vNíger^lpt
+^cNG^vNigéria^lpt
+^cNO^vNoruega^lpt
+^cNC^vNova Caledônia^lpt
+^cNZ^vNova Zelândia^lpt
+^cNH^vNovas Hébridas^lpt
+^cOM^vOmã^lpt
+^cNL^vPaíses Baixos^lpt
+^cPA^vPanamá^lpt
+^cPG^vPapua Nova Guiné^lpt
+^cPK^vPaquistão^lpt
+^cPY^vParaguai^lpt
+^cPE^vPerú^lpt
+^cPF^vPolinésia Francesa^lpt
+^cPL^vPolônia^lpt
+^cPR^vPorto Rico^lpt
+^cPT^vPortugal^lpt
+^cKE^vQuênia^lpt
+^cGB^vReino Unido^lpt
+^cCF^vRep. Centro Africa^lpt
+^cDO^vRepública Dominicana^lpt
+^cRE^vReunião^lpt
+^cRO^vRomênia^lpt
+^cBY^vRSS de Bielorrusia^lpt
+^cUA^vRSS de Ucrania^lpt
+^cRW^vRuanda^lpt
+^cPM^vS. Pedro y Miguelón^lpt
+^cEH^vSaara Ocidental^lpt
+^cAS^vSamoa Americana^lpt
+^cWS^vSamoa Ocidental^lpt
+^cKN^vSan Cristóbal-Nieves-Anguila^lpt
+^cSM^vSan Marino^lpt
+^cSH^vSanta Elena^lpt
+^cLC^vSanta Lucia^lpt
+^cST^vSão Tomé e Príncipe^lpt
+^cVC^vSão Vicente^lpt
+^cSC^vSeichelles^lpt
+^cSN^vSenegal^lpt
+^cSL^vSerra Leoa^lpt
+^cSK^vSikkin^lpt
+^cSG^vSingapura^lpt
+^cSY^vSíria^lpt
+^cSO^vSomália^lpt
+^cLK^vSri Lanka^lpt
+^cSZ^vSuazilândia^lpt
+^cSD^vSudão^lpt
+^cSE^vSuécia^lpt
+^cCH^vSuiça^lpt
+^cSR^vSuriname^lpt
+^cTH^vTailândia^lpt
+^cTZ^vTanzânia^lpt
+^cCS^vTchecollovaquia^lpt
+^cNQ^vTerra de Maud Dronning^lpt
+^cTG^vTogo^lpt
+^cTO^vTonga^lpt
+^cTT^vTrinidad e Tobago^lpt
+^cTN^vTunísia^lpt
+^cTR^vTurquia^lpt
+^cUG^vUganda^lpt
+^cUP^vUnited States Pacific^lpt
+^cSU^vURSS^lpt
+^cUY^vUruguai^lpt
+^cVU^vVanuatu^lpt
+^cVE^vVenezuela^lpt
+^cVN^vVietnã^lpt
+^cZR^vZaire^lpt
+^cZM^vZâmbia^lpt

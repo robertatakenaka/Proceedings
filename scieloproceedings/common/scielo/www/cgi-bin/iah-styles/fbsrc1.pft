@@ -1,0 +1,44 @@
+
+,proc('d9001d9002',
+		if v5021 ='p' then 'a9001~pt~a9002~^1ISSN^2versão impressa^3Publicação de~' fi
+		if v5021 ='e' then 'a9001~es~a9002~^1ISSN^2versión impresa^3Publicación del~' fi
+		if v5021 ='i' then 'a9001~en~a9002~^1Print ISSN^2^3Publication of the~' fi
+,),		
+
+,proc('d8018',(if v18^l=v9001[1] then 'a8018{',v18,'{', break fi)),
+,proc(if a(v8018) then (if v18*0.1<>'^' then 'd8018a8018{',v18,'{', break fi), fi),
+,proc(if v8018*0.1='^' then (if v18*0.1<>'^' then 'd8018a8018{',v18^*,v8018[1],'{', break fi), fi),
+
+,proc('d8056',(if v56^l=v9001[1] then 'a8056{',v56,'{', break fi)),
+,proc(if a(v8056) then (if v56^*<>'' then 'd8056a8056{',v56,'{', break fi), fi),
+,proc('d8057','a8057{',ref(['country']l(['country'],v9001[1],v57),v1^v),'{'),
+
+,@places.pft,
+'<table width="100%">',
+'<tr><td width="18%">&nbsp;</td>',
+
+,proc('d8851d8856',
+     ,ref(['facic']l(['facic'],'SEQ=',v401,'-001'),
+          ,'a8851{',v1,'{',
+          ,'a8856{',v6,'{',
+         ,),
+     ,),
+
+    ,'<td><font face="arial" size="2">',
+    ,if s(v8856)='001' then
+    	,'<a href="http://',v7990,v7991,'sci_issuetoc','&lng=',v9001,'&pid=',v401,v36*0.4,s(f(val(s(v36*4.3))+10000,2,0))*1.4,'">',
+	,v8018^c,' 'v8018^*,
+	,'</a>',
+    ,else
+       	,v8018^c,' 'v8018^*,
+    ,fi,
+    ,', 'v55*0.4,
+	,|, |v8056^c,
+	,|, |v8056^s,
+	,|, |v8057,
+	,'.'
+	,'<br><br>',
+	,'</td>',
+	,'</tr>',
+	
+'</table>'

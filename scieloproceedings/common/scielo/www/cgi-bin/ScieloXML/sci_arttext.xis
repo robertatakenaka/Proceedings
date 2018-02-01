@@ -291,7 +291,7 @@
 					replace(v704^*,'http:','')/,
 				else
 					v704^*,
-				fi</pft></display>
+				fi,']]></BODY><BODY><![CDATA['</pft></display>
 	   <flow action="jump">CONTINUE</flow>
 	   
    <label>CREATE_AUTHOR_LINK</label>
